@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eaebef;
+}
+.Header{
+    font-size: 40px;
+    height: 75px;
+    color: #f9fdf1;
+    background-color: #4469b0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Header p{
+    padding-top: 10px
+}
+.chatDiv {
+    margin-top: 50px;
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+}
+
+.main {
+    width: 450px;
+    height: 450px;
+    border: 1px solid whitesmoke;
+    background-color:#ffffff;
+    margin: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+}
+
+.msgInput {
+    width: 200px;
+}
+.text{
+    font-size: medium;
+}
+button {
+    /* padding: 2px 28px; */
+    width: 120px;
+    height: 50px;
+    color: black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4%;
+    outline-style: none;
+    /* box-shadow: steelblue; */
+    background-color: #4469b0;
+    
+}
+
+
+
+.imageContainer {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin: auto; 
+}
+
+.imageDiv{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.imageDiv img {
+    width: 100%;
+}
+
+
+.smallImage {
+    width: 100px;
+    display: flex;
+    
+}
+input{
+    width: 600px;
+    height: 50px;
+    border-radius: 4%;
+    color: black;
+    outline-style: none;
+    color: black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
