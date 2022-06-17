@@ -37,7 +37,7 @@ function MsgApp() {
       <div className="main">
         {todo.map((item, index) => {
           return item.slice(0, 5) === "https" ? (
-            <img className="smallImage" src={item} />
+            <img className="smallImage" src={item} alt="gif" />
           ) : (
             <div>{item}</div>
           );
